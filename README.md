@@ -4,6 +4,10 @@
 A **API Smart Plug** é uma API desenvolvida em **Node.js** com **Express** e **TypeScript**, projetada para controlar **smart plugs da Tuya**. O sistema também utiliza o serviço **SNS da Amazon (AWS Simple Notification Service)** para notificações e comunicação em tempo real via **WebSockets**. O banco de dados utilizado é o **MongoDB**.
 
 ## Prints
+![image](https://github.com/user-attachments/assets/aa441995-7d3a-4890-8646-b566860418d0)
+
+![image](https://github.com/user-attachments/assets/ccf229c0-25e1-428c-b7d0-5a4e81e17c78)
+
 
 
 ## Tecnologias Utilizadas
