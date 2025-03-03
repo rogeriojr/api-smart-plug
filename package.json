@@ -1,0 +1,47 @@
+{
+  "name": "smartplug-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/index.ts",
+    "dev": "tsx watch src/index.ts",
+    "build": "tsup src --format esm --out-dir dist"
+  },
+  "dependencies": {
+    "@aws-sdk/client-sns": "^3.699.0",
+    "@tuya/tuya-connector-nodejs": "^2.1.2",
+    "axios": "^1.4.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.4.3",
+    "socket.io": "^4.7.2",
+    "uuid": "^11.0.5",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.0",
+    "@babel/node": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-typescript": "^7.26.0",
+    "@types/aws-sdk": "^2.7.4",
+    "@types/axios": "^0.14.4",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cors": "^2.8.13",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/node": "^22.10.2",
+    "@types/uuid": "^10.0.0",
+    "@types/ws": "^8.5.5",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "tsup": "^8.0.2",
+    "tsx": "^4.7.1",
+    "typescript": "^5.7.2"
+  }
+}
